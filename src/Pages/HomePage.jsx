@@ -304,7 +304,7 @@ const Home = () => {
                         </section>
 
                         {/* Our Services - Progressive reveal with images */}
-                        <section ref={setServicesRef} className="px-4 sm:px-8 md:px-16 lg:px-32 py-8 sm:py-16 bg-zinc-900 space-y-6 sm:space-y-12 min-h-screen">
+                        {/* <section ref={setServicesRef} className="px-4 sm:px-8 md:px-16 lg:px-32 py-8 sm:py-16 bg-zinc-900 space-y-6 sm:space-y-12 min-h-screen">
                             <motion.h2 
                                 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white" 
                                 initial={{ opacity: 0, y: 40 }} 
@@ -314,7 +314,7 @@ const Home = () => {
                                 Our Services
                             </motion.h2>
                             
-                            {/* Images Grid - Progressive Reveal */}
+                          
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 mb-8">
                                 {service.map((img, index) => (
                                     <motion.div
@@ -343,7 +343,6 @@ const Home = () => {
                                 ))}
                             </div>
 
-                            {/* Progress indicator */}
                             <div className="flex justify-center mb-6">
                                 <div className="flex space-x-2">
                                     {service.map((_, index) => (
@@ -357,12 +356,11 @@ const Home = () => {
                                 </div>
                             </div>
                             
-                            {/* Instructions */}
+                         
                             <div className="text-center text-zinc-400 text-sm mb-8">
                                 Move your cursor down through this section to reveal all services ({visibleImages}/{service.length} visible)
                             </div>
 
-                            {/* Services Cards */}
                             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
                                 {marketingServices.map((item, index) => (
                                     <motion.div
@@ -378,7 +376,7 @@ const Home = () => {
                                     </motion.div>
                                 ))}
                             </div>
-                        </section>
+                        </section> */}
 
                         {/* Our Team - Responsive layout */}
                         <section className="px-4 sm:px-8 md:px-16 lg:px-32 py-8 sm:py-16 space-y-6 sm:space-y-8">
