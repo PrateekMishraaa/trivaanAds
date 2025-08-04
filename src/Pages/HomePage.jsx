@@ -185,7 +185,7 @@ const Home = () => {
                         {/* Hero Section */}
                         <main className="flex-grow flex items-center justify-center text-center py-12 px-4 sm:py-18">
                             <motion.h1
-                                className="text-[12vw] sm:text-[10vw] lg:text-[8vw] font-extrabold tracking-tight"
+                                className="text-[12vw] sm:text-[10vw] lg:text-[8vw] font-extrabold tracking-tight py-8"
                                 initial={{ scale: 0.8, opacity: 0 }}
                                 animate={{ scale: 1, opacity: 1 }}
                                 transition={{ duration: 1 }}
