@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center w-full px-8 py-6 bg-black">
+    <nav className="flex justify-between items-center w-full px-8 py-6 bg-black fixed ">
       {/* Logo */}
       <div className="text-white font-bold text-2xl tracking-widest italic">Trivaan</div>
 
